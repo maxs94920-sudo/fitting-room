@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 500">
+  <defs>
+    <linearGradient id="puffer" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5a7048"/>
+      <stop offset="100%" stop-color="#2a3a1f"/>
+    </linearGradient>
+  </defs>
+  <path d="M 88 128 Q 150 108 212 128 L 218 268 Q 150 285 82 268 Z" fill="url(#puffer)"/>
+  <line x1="150" y1="128" x2="150" y2="268" stroke="#1a2412" stroke-width="2" opacity="0.6"/>
+  <line x1="100" y1="160" x2="200" y2="160" stroke="#1a2412" stroke-width="1.5" opacity="0.4"/>
+  <line x1="100" y1="190" x2="200" y2="190" stroke="#1a2412" stroke-width="1.5" opacity="0.4"/>
+  <line x1="100" y1="220" x2="200" y2="220" stroke="#1a2412" stroke-width="1.5" opacity="0.4"/>
+  <line x1="100" y1="250" x2="200" y2="250" stroke="#1a2412" stroke-width="1.5" opacity="0.4"/>
+  <path d="M 92 128 Q 72 133 69 168 L 65 268 Q 65 278 72 278 Q 79 278 79 268 L 85 178 Q 87 148 92 138 Z" fill="url(#puffer)"/>
+  <path d="M 208 128 Q 228 133 231 168 L 235 268 Q 235 278 228 278 Q 221 278 221 268 L 215 178 Q 213 148 208 138 Z" fill="url(#puffer)"/>
+</svg>

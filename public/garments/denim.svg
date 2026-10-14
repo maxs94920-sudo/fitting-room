@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 500">
+  <defs>
+    <linearGradient id="denim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a6a8a"/>
+      <stop offset="100%" stop-color="#243850"/>
+    </linearGradient>
+  </defs>
+  <path d="M 92 130 L 150 145 L 208 130 L 212 250 Q 150 265 88 250 Z" fill="url(#denim)"/>
+  <line x1="150" y1="145" x2="150" y2="250" stroke="#152438" stroke-width="2"/>
+  <circle cx="140" cy="170" r="2" fill="#d4c2b0"/>
+  <circle cx="140" cy="195" r="2" fill="#d4c2b0"/>
+  <circle cx="140" cy="220" r="2" fill="#d4c2b0"/>
+  <rect x="100" y="205" width="30" height="3" fill="#152438" opacity="0.6"/>
+  <rect x="170" y="205" width="30" height="3" fill="#152438" opacity="0.6"/>
+  <path d="M 92 130 Q 72 135 69 170 L 65 260 Q 65 268 72 268 Q 79 268 79 260 L 85 180 Q 87 150 92 140 Z" fill="url(#denim)"/>
+  <path d="M 208 130 Q 228 135 231 170 L 235 260 Q 235 268 228 268 Q 221 268 221 260 L 215 180 Q 213 150 208 140 Z" fill="url(#denim)"/>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <defs>
+    <linearGradient id="g3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a5a7a"/>
+      <stop offset="100%" stop-color="#1a2a3a"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#g3)"/>
+  <text x="200" y="260" text-anchor="middle" fill="#fff" font-family="serif" font-size="30" opacity="0.2">DENIM</text>
+</svg>

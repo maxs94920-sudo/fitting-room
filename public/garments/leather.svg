@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 500">
+  <defs>
+    <linearGradient id="leather" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6b2a2a"/>
+      <stop offset="100%" stop-color="#2a0e0e"/>
+    </linearGradient>
+  </defs>
+  <path d="M 130 115 L 150 145 L 170 115 Z" fill="#4a1818"/>
+  <path d="M 88 128 Q 150 108 212 128 L 216 258 Q 150 275 84 258 Z" fill="url(#leather)"/>
+  <line x1="150" y1="150" x2="150" y2="258" stroke="#1a0606" stroke-width="3" opacity="0.7"/>
+  <path d="M 130 145 Q 150 165 170 145" fill="none" stroke="#1a0606" stroke-width="2" opacity="0.5"/>
+  <path d="M 92 128 Q 72 133 69 170 L 66 262 Q 66 272 73 272 Q 80 272 80 262 L 86 178 Q 88 148 92 138 Z" fill="url(#leather)"/>
+  <path d="M 208 128 Q 228 133 231 170 L 234 262 Q 234 272 227 272 Q 220 272 220 262 L 214 178 Q 212 148 208 138 Z" fill="url(#leather)"/>
+</svg>

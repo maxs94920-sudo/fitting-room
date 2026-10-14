@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 500">
+  <defs>
+    <linearGradient id="coat" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b89160"/>
+      <stop offset="100%" stop-color="#7a5a35"/>
+    </linearGradient>
+  </defs>
+  <!-- یقه کت -->
+  <path d="M 130 115 L 150 145 L 170 115 Z" fill="#9a7845"/>
+  <!-- بدنه کت -->
+  <path d="M 90 130 Q 150 110 210 130 L 215 260 Q 150 275 85 260 Z" fill="url(#coat)"/>
+  <!-- درز وسط کت -->
+  <line x1="150" y1="150" x2="150" y2="260" stroke="#5a3d1f" stroke-width="2" opacity="0.5"/>
+  <!-- جیب چپ -->
+  <rect x="105" y="215" width="30" height="4" fill="#5a3d1f" opacity="0.4"/>
+  <!-- جیب راست -->
+  <rect x="165" y="215" width="30" height="4" fill="#5a3d1f" opacity="0.4"/>
+  <!-- آستین چپ -->
+  <path d="M 95 130 Q 75 135 72 170 L 68 270 Q 68 280 75 280 Q 82 280 82 270 L 88 180 Q 90 150 95 140 Z" fill="url(#coat)"/>
+  <!-- آستین راست -->
+  <path d="M 205 130 Q 225 135 228 170 L 232 270 Q 232 280 225 280 Q 218 280 218 270 L 212 180 Q 210 150 205 140 Z" fill="url(#coat)"/>
+  <!-- دکمه‌ها -->
+  <circle cx="145" cy="185" r="3" fill="#3d2812"/>
+  <circle cx="145" cy="210" r="3" fill="#3d2812"/>
+  <circle cx="145" cy="235" r="3" fill="#3d2812"/>
+</svg>
