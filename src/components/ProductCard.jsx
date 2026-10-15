@@ -1,10 +1,47 @@
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 function ProductCard({ product }) {
   const [liked, setLiked] = useState(false);
+  const [isVisible, setIsVisible] = useState(() => typeof IntersectionObserver === 'undefined');
+  const cardRef = useRef(null);
+
+  useEffect(() => {
+    if (typeof IntersectionObserver === 'undefined') return;
+
+    const element = cardRef.current;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          if (element) observer.unobserve(element);
+        }
+      },
+      {
+        threshold: 0.1,
+        rootMargin: '0px 0px -20px 0px',
+      }
+    );
+
+    if (element) {
+      observer.observe(element);
+    }
+
+    return () => {
+      if (element) {
+        observer.unobserve(element);
+      }
+    };
+  }, []);
 
   return (
-    <div className="group relative bg-neutral-900 rounded-2xl overflow-hidden transition-all hover:bg-neutral-800">
+    <div
+      ref={cardRef}
+      className={`group relative bg-neutral-900 rounded-2xl overflow-hidden transition-all duration-700 ease-out hover:bg-neutral-800 ${
+        isVisible
+          ? 'opacity-100 translate-y-0'
+          : 'opacity-0 translate-y-8 pointer-events-none'
+      }`}
+    >
       {/* Badge */}
       {product.badge && (
         <span className="absolute top-3 left-3 z-10 bg-neutral-800/90 backdrop-blur text-xs text-white px-2 py-1 rounded-full">
