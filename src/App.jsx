@@ -4,18 +4,18 @@ import ProductCard from './components/ProductCard';
 import FittingRoom from './components/FittingRoom';
 import { products } from './data/products';
 
+const categoryKeywords = {
+  Coats: ['Coat'],
+  Jackets: ['Jacket', 'Jackets'],
+  Denim: ['Denim'],
+  Leather: ['Leather'],
+  Bomber: ['Bomber'],
+};
+
 function App() {
   const [sort, setSort] = useState('Newest');
   const [filters, setFilters] = useState({ categories: [], priceRange: null });
   const [showFittingRoom, setShowFittingRoom] = useState(true);
-
-  const categoryKeywords = {
-    Coats: ['Coat'],
-    Jackets: ['Jacket', 'Jackets'],
-    Denim: ['Denim'],
-    Leather: ['Leather'],
-    Bomber: ['Bomber'],
-  };
 
   const visibleProducts = useMemo(() => {
     let result = [...products];
