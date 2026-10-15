@@ -1,16 +1,47 @@
-# React + Vite
+# 🛍️ Fitting Room — Interactive Fashion Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+An interactive fashion store demo built with **React** and **Vite**, featuring a virtual **Fitting Room** where users can try on garments on a mannequin in real time.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Product Grid** — Responsive cards with price, rating, discount, wishlist
+- **Filters & Sort** — Filter by category, sort by price/rating
+- **Fitting Room** — Select garments and see them layered on a mannequin
+- **Drag & Drop** — Desktop drag; mobile tap
+- **Dark UI** — Premium fashion theme
 
-## React Compiler
+## 🎨 Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+| Layer | Tech |
+|---|---|
+| Framework | React 19 |
+| Build | Vite 8 |
+| Styling | Tailwind CSS 4 |
+| Assets | Inline SVG |
 
-## Expanding the Oxlint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```bash
+git clone https://github.com/maxs94920-sudo/fitting-room.git
+cd fitting-room
+npm install
+npm run dev
+```
+
+## 🎯 Roadmap
+
+- [ ] Pointer Events drag & drop for mobile
+- [ ] Persist picks in localStorage
+- [ ] Scroll-triggered animations
+- [ ] Improved mannequin SVG
+- [ ] Light background for Fitting Room
+- [ ] AI try-on integration
+- [ ] Deploy to Vercel
+
+## 📄 License
+
+MIT
+
+## 👤 Author
+
+**maxs94920-sudo** — https://github.com/maxs94920-sudo
